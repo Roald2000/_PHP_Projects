@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fetch API w/ PHP RESt API</title>
+</head>
+
+<body>
+
+    <h1>Fetch API w/ PHP RESt API</h1>
+    <hr>
+    <form id="handleSubmit">
+        <h3>CRUD Operations</h3>
+        <section class="input_section">
+            <input type="text" id="row_id" class="hide" placeholder="Item ID" disabled>
+            <input required type="text" id="item_name" placeholder="Item Name">
+            <input required type="number" id="item_price" placeholder="Price">
+        </section>
+        <section class="submit_section">
+            <button type="submit" id="add_btn">Add Item</button>
+            <button type="button" onclick="update_item()" id="update_btn" class="hide">Update</button>
+            <button type="reset" onclick="resetForm()">Reset</button>
+        </section>
+    </form>
+    <br>
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Item Name</th>
+                    <th>Price</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="list">
+
+            </tbody>
+        </table>
+    </section>
+
+    <script src="myapi.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

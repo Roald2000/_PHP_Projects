@@ -1,0 +1,67 @@
+* {
+    font-family: Poppins, Segoe UI Emoji, Segoe UI, Segie, Verdana, serif, sans-serif;
+    box-sizing : border-box;
+}
+
+input {
+    padding      : .5em;
+    border-radius: .3em;
+    border       : 2px solid slateblue;
+}
+
+input {
+    position: relative;
+}
+
+
+
+input::before {
+    content   : 'asd';
+    top       : 5%;
+    left      : 5%;
+    width     : 300px;
+    height    : 10px;
+    background: #000;
+    z-index   : 1;
+}
+
+
+
+section {
+    padding: .5em;
+}
+
+section table {
+    width: 100%;
+}
+
+table,
+table thead,
+table thead tr th,
+table tbody,
+table tbody tr td {
+    border         : 1px solid black;
+    border-collapse: collapse;
+}
+
+table thead tr th,
+table tbody tr td {
+    padding   : .3em;
+    text-align: start;
+}
+
+#error_list {
+    column-span: 4;
+    background : crimson;
+    color      : white;
+    text-align : center;
+    border     : none;
+}
+
+.show {
+    display: inline-block;
+}
+
+.hide {
+    display: none;
+}
