@@ -20,8 +20,8 @@ const useApi = (baseURL) => {
     * How it should look
         * http://localhost:80/_php_projects/php_mysql_crud/php-mysql-javascript_crud/php_rest_api.php?
 */
-let myapi = useApi('http://localhost:80/_php_projects/php_mysql_crud/php-mysql-javascript_crud/php_rest_api.php?');
 
+let myapi = useApi('http://localhost:80/_PHP_Projects/php-mysql-javascript_crud/php_rest_api.php?');
 
 
 

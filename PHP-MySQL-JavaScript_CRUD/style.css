@@ -44,6 +44,10 @@ table tbody tr td {
     border-collapse: collapse;
 }
 
+table thead tr th {
+    background: cornflowerblue;
+}
+
 table thead tr th,
 table tbody tr td {
     padding   : .3em;
